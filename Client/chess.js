@@ -52,7 +52,7 @@ class table {
     }
 
 
-
+    //this one cleans table 
     cleanTable() {
         this.map = []
 
@@ -69,6 +69,7 @@ class table {
 
     }
 
+    //this one prints all figures and empty places in console
     printTableInConsole() {
 
         let s = ""
@@ -83,7 +84,7 @@ class table {
 
     }
 
-
+    //this one puts all figures in start up' position
     setTable() {
         this.cleanTable()
         //setting figures for white team
@@ -121,7 +122,7 @@ class table {
 
 
 
-
+//figures is parent of all figures but as well as representation of empty cell in table 
 class figure {
     type
     team
@@ -175,6 +176,8 @@ class figure {
 
 
 }
+
+//pawn ♟️
 class pijun extends figure {//♟
     is_empty = false
     type = "pijun"
@@ -264,6 +267,7 @@ class pijun extends figure {//♟
 
 }
 
+//Rook ♜
 class topp extends figure {//♜
     is_empty = false
     type = "top"
@@ -350,6 +354,8 @@ class topp extends figure {//♜
 
 }
 
+
+//Bishop ♝
 class lovac extends figure {//♝
     is_empty = false
     type = "lovac"
@@ -445,6 +451,8 @@ class lovac extends figure {//♝
 
 
 }
+
+//Knight ♞
 class konj extends figure {//♞
     is_empty = false
     type = "konj"
@@ -525,6 +533,8 @@ class konj extends figure {//♞
 
 
 }
+
+//queen ♛
 class kraljica extends figure {//♛
     is_empty = false
     type = "kraljica"
@@ -622,7 +632,7 @@ class kraljica extends figure {//♛
 
 
 
-        //cannon logic 
+        //cannon rook 
 
         try {
             for (let x = pos.x + 1; x < this.table.sizex; x++) {
@@ -693,6 +703,7 @@ class kraljica extends figure {//♛
 
 }
 
+//King ♔
 class kralj extends figure {//♚
     is_empty = false
     type = "kralj"
