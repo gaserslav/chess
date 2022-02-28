@@ -40,7 +40,7 @@ function print(s) {
 }
 
 
-
+//table is object that contains matrix of figures
 class table {
 
 
