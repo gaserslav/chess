@@ -1,5 +1,5 @@
 
-// this functiom returns figure as char also i am using Serbian terms 
+// this function returns figure as char also i am using Serbian terms 
 function returnFigure(figure) {
     let black = ['♜', '♞', '♝', '♛', '♚', '♟'];
     let white = ['♖', '♘', '♗', '♕', '♔', '♙'];
