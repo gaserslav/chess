@@ -13,4 +13,4 @@
 ### this one does the networking on clients side 
 
 
-speaking of 'advanced' moves like gambit or castling 
+speaking of 'advanced' moves like gambit or castling they dont exist
