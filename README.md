@@ -8,6 +8,6 @@
 
 ### there is chess.js and client.js 
 >chess.js 
-### this one represents figures and logic behind it 
+### this one represents figures and logic behind them 
 >client.js 
 ### this one does the networking on clients side 
