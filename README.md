@@ -14,3 +14,6 @@
 
 
 speaking of 'advanced' moves like gambit or castling they arent featured
+
+
+![image info](https://i.ibb.co/m5vHyWG/image.png)
